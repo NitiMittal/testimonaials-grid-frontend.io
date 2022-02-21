@@ -18,17 +18,19 @@ body {
   background-color: var(--lightGrayishBlue);
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
   display: grid;
   grid-gap: 1.3rem;
   max-width: 1209px;
-  margin: 2rem auto;
   grid-template-areas:
     "daniel daniel daniel jonathan kira "
     "jean patrick patrick patrick kira";
-
   padding: 1rem;
 }
 
@@ -46,7 +48,6 @@ body {
   background-image: url("../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: 88% top;
-
   grid-area: daniel;
 }
 
@@ -115,6 +116,9 @@ body {
 .attribution {
   font-size: 13px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
