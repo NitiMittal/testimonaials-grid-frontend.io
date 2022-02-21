@@ -18,7 +18,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Screenshot
 
-.images/screenshot.png
+.images/screenshot.jpg
 
 ### Links
 
